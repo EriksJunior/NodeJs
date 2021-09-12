@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 
 
-router.get('/salvar', (req, res)=>{
+router.get('/Cad', (req, res)=>{
     res.send('Salvando informações...')
 })
 

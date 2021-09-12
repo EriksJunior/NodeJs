@@ -6,6 +6,10 @@ const formulario = require('./routes/formulario')
 app.set('view engine', 'ejs')
 
 app.get('/', (req, res)=>{
+    res.send('essa é a tela inicial')
+})
+
+app.get('/formulario', (req, res)=>{
     res.render('formulario')
 })
 
